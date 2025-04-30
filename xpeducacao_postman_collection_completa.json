@@ -1,0 +1,445 @@
+{
+  "info": {
+    "name": "XPeducacao API (Completo)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "updated": "2025-04-29T17:38:18.248036Z"
+  },
+  "item": [
+    {
+      "name": "Listar Clientes",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar Cliente por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar Clientes por Nome",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes/buscar?nome=joao",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes",
+            "buscar?nome=joao"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criar Cliente",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Jo\\u00e3o Silva\",\n  \"email\": \"joao@teste.com\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Atualizar Cliente",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes",
+            "1"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"Jo\\u00e3o Silva Atualizado\",\n  \"email\": \"joao@atualizado.com\"\n}"
+        }
+      }
+    },
+    {
+      "name": "Deletar Cliente",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Contar Clientes",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/clientes/count",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "clientes",
+            "count"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar Produtos",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/produtos",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "produtos"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar Produto por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/produtos/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "produtos",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criar Produto",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/produtos",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "produtos"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"T\\u00eanis Corrida\",\n  \"preco\": 299.99\n}"
+        }
+      }
+    },
+    {
+      "name": "Atualizar Produto",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/produtos/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "produtos",
+            "1"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"nome\": \"T\\u00eanis Corrida Premium\",\n  \"preco\": 399.99\n}"
+        }
+      }
+    },
+    {
+      "name": "Deletar Produto",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/produtos/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "produtos",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Contar Produtos",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/produtos/count",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "produtos",
+            "count"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Listar Pedidos",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/pedidos",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "pedidos"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Buscar Pedido por ID",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/pedidos/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "pedidos",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Criar Pedido",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/pedidos",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "pedidos"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"descricao\": \"Pedido Corrida\",\n  \"valorTotal\": 599.98,\n  \"clienteId\": 1,\n  \"produtoIds\": [\n    1,\n    2\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "Atualizar Pedido",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/pedidos/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "pedidos",
+            "1"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"descricao\": \"Pedido Corrida Atualizado\",\n  \"valorTotal\": 699.98,\n  \"clienteId\": 1,\n  \"produtoIds\": [\n    1\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "Deletar Pedido",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/pedidos/1",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "pedidos",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Contar Pedidos",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "http://localhost:8080/pedidos/count",
+          "host": [
+            "localhost:8080"
+          ],
+          "path": [
+            "pedidos",
+            "count"
+          ]
+        }
+      }
+    }
+  ]
+}

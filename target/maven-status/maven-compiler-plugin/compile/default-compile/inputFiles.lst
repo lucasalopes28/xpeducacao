@@ -1,0 +1,16 @@
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/model/Produto.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/service/ProdutoService.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/dto/ClienteDTO.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/dto/PedidoDTO.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/service/PedidoService.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/XpeducacaoApiApplication.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/repository/ProdutoRepository.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/controller/ClienteController.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/service/ClienteService.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/model/Pedido.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/repository/PedidoRepository.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/dto/ProdutoDTO.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/model/Cliente.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/repository/ClienteRepository.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/controller/ProdutoController.java
+/Users/lucasalopes/XpEducacao/projects/xpeducacao/src/main/java/com/xpeducacao/controller/PedidoController.java
