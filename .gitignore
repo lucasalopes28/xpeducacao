@@ -1,0 +1,49 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package file
+*.jar
+*.war
+*.ear
+
+# Spring temporary files
+/tmp/
+/logs/
+
+# Maven target directory
+/target/
+/build/
+
+# IntelliJ project files
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Eclipse project files
+.settings/
+.classpath
+.project
+
+# Gradle files
+.gradle
+/build/
+
+# local configuration files
+*.properties
+*.yml
+
+# Netbeans
+/nbproject/
+
+#STS
+/sts-workspace/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
